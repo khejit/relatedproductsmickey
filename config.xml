@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>relatedproductsmickey</name>
+	<displayName><![CDATA[Related Products Mickey]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[Adds extra field on products page with products from selected category]]></description>
+	<author><![CDATA[khejit]]></author>
+	<tab><![CDATA[advertising_marketing]]></tab>
+	<confirmUninstall><![CDATA[Are you sure? We have cookies :F]]></confirmUninstall>
+	<is_configurable>0</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

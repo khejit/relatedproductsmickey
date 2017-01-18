@@ -1,0 +1,254 @@
+.related_products_mickey{
+    position: relative;
+    margin: 30px 0 10px;}
+.related_products_mickey .pos_title{
+    position: relative;
+    overflow: hidden;
+    margin-right: 80px;
+    margin-bottom: 30px;}
+.related_products_mickey .pos_title h2{
+    font-size: 20px;
+    background: #a1d7ca;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+    font-family: RobotoCondensedBold;
+    border-radius: 4px;
+    margin: 0;
+    cursor: pointer;
+    line-height: 30px;
+    padding: 10px 30px;
+    border-bottom: 3px solid #85b4a9;
+    margin-left: 60px;
+    z-index: 9;}
+.related_products_mickey .pos_title h2:before{
+    content: "\f06c";
+    width: 53px;
+    height: 53px;
+    border-radius: 4px;
+    font-size: 30px;
+    text-align: center;
+    font-family: FontAwesome;
+    line-height: 50px;
+    background: #4a4a51;
+    margin-right: 3px;
+    border-bottom: 3px solid #2b2b2f;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;}
+.related_products_mickey .pos_title h2:after{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #dfdede;
+    position: absolute;
+    top: 50%;
+    margin-left: 40px;
+    z-index: 8;}
+@media (max-width: 767px) {
+    .related_products_mickey .pos_title{margin-right: 0;}
+    .related_products_mickey .pos_title h2:after{display: none;}
+}
+/* content */
+.related_products_mickey .mickey_container{
+    position: relative;}
+.related_products_mickey .mickey_container .owl-carousel .owl-item{
+    padding: 0 15px;}
+.related_products_mickey .mickey_container .item {
+    padding: 10px;
+    background: #fff;
+}
+.related_products_mickey .mickey_container .item:hover{
+    border-color: #33c4b5;}
+.related_products_mickey .home-tab-img{
+    position: relative;
+    overflow: hidden;
+    /*padding-bottom: 30px;*/}
+.related_products_mickey .home-tab-img img{
+    width: 100%;}
+.related_products_mickey .comments_note{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    background: rgba(202, 202, 204, 0.7);}
+.related_products_mickey .comments_note .star_content{
+    display: inline-block;}
+.related_products_mickey .comments_note .nb-comments{
+    display: none;}
+@media (min-width: 1200px){
+    .related_products_mickey .comments_note{
+        display: block;}
+    .related_products_mickey .item:hover .comments_note .star_content{
+        -moz-animation: fadeInRight 500ms linear;
+        -o-animation: fadeInRight 500ms linear;
+        -webkit-animation: fadeInRight 500ms linear;
+        animation: fadeInRight 500ms linear;}
+    .related_products_mickey .item:hover .comments_note .star:nth-child(1){
+        -moz-animation: spin 500ms linear;
+        -o-animation: spin 500ms linear;
+        -webkit-animation: spin 500ms linear;
+        animation: spin 500ms linear;}
+    .related_products_mickey .item:hover .comments_note .star:nth-child(2){
+        -moz-animation: spin 600ms linear;
+        -o-animation: spin 600ms linear;
+        -webkit-animation: spin 600ms linear;
+        animation: spin 600ms linear;}
+    .related_products_mickey .item:hover .comments_note .star:nth-child(3){
+        -moz-animation: spin 700ms linear;
+        -o-animation: spin 700ms linear;
+        -webkit-animation: spin 700ms linear;
+        animation: spin 700ms linear;}
+    .related_products_mickey .item:hover .comments_note .star:nth-child(4){
+        -moz-animation: spin 800ms linear;
+        -o-animation: spin 800ms linear;
+        -webkit-animation: spin 800ms linear;
+        animation: spin 800ms linear;}
+    .related_products_mickey .item:hover .comments_note .star:nth-child(5){
+        -moz-animation: spin 900ms linear;
+        -o-animation: spin 900ms linear;
+        -webkit-animation: spin 900ms linear;
+        animation: spin 900ms linear;}
+}
+.related_products_mickey .product-name{
+    font: 600 1.6rem/24px 'Exo 2';
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    margin: 20px 0 0;
+    color: #2c2c2c;
+    -webkit-transition: color 300ms ease;
+    -moz-transition: color 300ms ease;
+    -ms-transition: color 300ms ease;
+    -o-transition: color 300ms ease;
+    transition: color 300ms ease;}
+.related_products_mickey .product-name:hover{
+    color: #33c4b5;}
+.related_products_mickey .mickey_container .item .price-box{
+    margin: 0;
+    min-height: 25px;
+    text-align: center;}
+.related_products_mickey .mickey_container .item .price{
+    font: normal 15px/20px Arial, Helvetica, sans-serif;
+    color: #33c4b5;}
+.related_products_mickey .mickey_container .item .old-price{
+    font: normal 14px/30px Arial, Helvetica, sans-serif;
+    color: #8e8e8e;
+    margin-right: 7px;
+    text-decoration: line-through;}
+.related_products_mickey .mickey_container .item .exclusive{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 65px;
+    height: 65px;
+    border: 0;
+    background: #33c4b5;
+    line-height: 65px;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    padding: 0;
+    display:none;
+    -webkit-transition: all 700ms ease;
+    -moz-transition: all 700ms ease;
+    -ms-transition: all 700ms ease;
+    -o-transition: all 700ms ease;
+    transition: all 700ms ease;}
+.related_products_mickey .mickey_container .item .exclusive:hover{
+    background: #a1d7ca;
+}
+
+.mickey_container a.nexttab {
+    position: absolute;
+    right: 10px;
+    top: 40%;
+}
+
+.mickey_container a.prevtab {
+    position: absolute;
+    left: 10px;
+    top: 40%;
+}
+
+.mickey_container i.icon-chevron-right, .mickey_container i.icon-chevron-left {
+    padding: 10px;
+    background: #D7D7D7;
+}
+
+@media (min-width: 993px) and (max-width: 1199px){
+    .related_products_mickey .mickey_container .item .exclusive{
+        font-size: 11px;}
+}
+.related_products_mickey .mickey_container .item .exclusive i{
+    padding-right: 9px;}
+.related_products_mickey .mickey_container .item .quick-view,
+.related_products_mickey .mickey_container .item .addToWishlist{
+    position: absolute;
+    right: 10px;
+    bottom: 45px;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+    text-align: center;
+    background: #33c4b5;
+    color: #fff;}
+.related_products_mickey .mickey_container .item .quick-view:hover,
+.related_products_mickey .mickey_container .item .addToWishlist:hover{
+    color: #fff;
+    background: #33c4b5;
+    border-color: #33c4b5;
+    -webkit-box-shadow: 0 3px 0 0 #9ccbc2;
+    -moz-box-shadow: 0 3px 0 0 #9ccbc2;
+    box-shadow: 0 3px 0 0 #9ccbc2;}
+/* nav */
+.related_products_mickey .nextPrev-tab{
+    position: absolute;
+    top: 10px;
+    z-index: 9;
+    right: 0;}
+
+h4.title_block {
+    font: 600 18px/22px "Open Sans", sans-serif;
+    color: #555454;
+    background: #f6f6f6;
+    border-top: 5px solid #333333;
+    text-transform: uppercase;
+    padding: 14px 5px 17px 20px;
+    margin-bottom: 20px;
+}
+
+.related_products_mickey .nextPrev-tab a{
+    display: inline-block;
+    margin-left: 5px;
+    float: left;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #fff;
+    color: #8a8a8a;
+    font-size: 15px;
+    cursor: pointer;
+    border-bottom: 2px solid #cfcfcf;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;}
+.related_products_mickey .nextPrev-tab a:hover{
+    color: #fff;
+    background: #33c4b5;
+    border-color: #33c4b5;}
